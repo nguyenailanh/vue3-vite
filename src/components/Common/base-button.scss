@@ -1,0 +1,19 @@
+.btn {
+	border: solid 1px white;
+	padding: 10px 40px;
+	font-weight: bold;
+	color: white;
+	cursor: pointer;
+
+	&--primary {
+		background: blue;
+	}
+
+	&--secondary {
+		background: red;
+	}
+
+	&:hover {
+		opacity: 0.8;
+	}
+}

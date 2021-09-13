@@ -1,0 +1,18 @@
+.component-header {
+	&__wrapper {
+		display: flex;
+		justify-content: space-between;
+
+		padding: 0 20px;
+		background: antiquewhite;
+	}
+
+	&__logo {
+		display: flex;
+		align-items: center;
+	}
+
+	&__nav {
+		display: flex;
+	}
+}
