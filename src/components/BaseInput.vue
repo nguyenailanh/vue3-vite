@@ -21,7 +21,6 @@ export default {
 	emits: ['update:searchText'],
 	methods: {
 		handleInput(evt) {
-      const test = "";
 			this.$emit('update:searchText', evt.target.value)
 		},
 	},
