@@ -4,7 +4,7 @@
 			<div class="container">
 				<div class="row">
 					<div class="col">
-						<find-out-more></find-out-more>
+						<find-out-more />
 					</div>
 				</div>
 			</div>
@@ -22,18 +22,6 @@ export default {
 	components: {
 		BaseLayout,
 		FindOutMore,
-	},
-	data() {
-		return {
-			searchText1: 'Hello',
-			text: '',
-		}
-	},
-	watch: {
-		searchText(val) {
-			console.log(val)
-			this.text = val
-		},
 	},
 	setup() {
 		const store = useStore()
@@ -61,6 +49,18 @@ export default {
 		})
 
 		return { firstName, lastName, fullName }
+	},
+	data() {
+		return {
+			searchText1: 'Hello',
+			text: '',
+		}
+	},
+	watch: {
+		searchText(val) {
+			console.log(val)
+			this.text = val
+		},
 	},
 }
 </script>

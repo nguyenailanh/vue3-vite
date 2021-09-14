@@ -7,8 +7,8 @@
 <script>
 export default {
 	inheritAttrs: true,
-	emits: ['onClick'],
 	props: ['test'],
+	emits: ['onClick'],
 }
 </script>
 <style lang="scss" src="./base-button.scss"></style>

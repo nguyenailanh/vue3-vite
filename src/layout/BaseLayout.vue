@@ -3,7 +3,7 @@
 		<the-header />
 		<main class="page-main">
 			<div>
-				<slot></slot>
+				<slot />
 			</div>
 		</main>
 		<the-footer />

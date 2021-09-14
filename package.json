@@ -2,14 +2,16 @@
 	"name": "my-project",
 	"version": "0.0.0",
 	"scripts": {
-		"dev": "vite",
+		"dev": "yarn lint:check && vite",
 		"build": "vite build",
 		"serve": "vite preview",
 		"storybook": "start-storybook -p 6006",
 		"build-storybook": "build-storybook",
-		"prettier:check": "prettier --check .",
-		"prettier:write": "prettier --write .",
-		"prepare": "husky install"
+		"prepare": "husky install",
+		"lint:check": "eslint --ext .js,.vue --ignore-path .gitignore .eslintrc.js --fix src",
+		"lint:format": "prettier .  --write",
+		"prettier:check": "prettier .  --check",
+		"prettier:format": "prettier .  --write"
 	},
 	"dependencies": {
 		"bootstrap": "5.1.1",
@@ -30,8 +32,10 @@
 		"autoprefixer": "10.3.2",
 		"babel-loader": "^8.2.2",
 		"css-loader": "6.2.0",
+		"eslint": "^7.32.0",
 		"eslint-config-prettier": "^8.3.0",
 		"eslint-plugin-prettier": "^4.0.0",
+		"eslint-plugin-vue": "^7.17.0",
 		"husky": "^7.0.2",
 		"postcss": "8.3.6",
 		"sass": "1.39.2",

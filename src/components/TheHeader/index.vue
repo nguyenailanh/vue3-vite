@@ -9,8 +9,12 @@
 					</a>
 				</div>
 				<ul class="component-header__nav">
-					<li><router-link to="/login">Login</router-link></li>
-					<li><router-link to="/about">About</router-link></li>
+					<li>
+						<router-link to="/login"> Login </router-link>
+					</li>
+					<li>
+						<router-link to="/about"> About </router-link>
+					</li>
 				</ul>
 			</div>
 		</div>

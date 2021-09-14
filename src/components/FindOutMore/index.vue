@@ -15,28 +15,28 @@
 							tristique purus vitae volutpat ultrices. Aliquam eu elit eget arcu
 							commodo.
 						</p>
-						<base-button class="btn--primary">FIND OUT MORE</base-button>
+						<base-button class="btn--primary"> FIND OUT MORE </base-button>
 					</div>
 				</div>
 				<div class="col-sm-12 col-md-4">
 					<ul class="find-out-more__icons">
 						<li class="find-out-more__icon">
-							<span class="fa fa-solid fa-clock"></span>
+							<span class="fa fa-solid fa-clock" />
 						</li>
 						<li class="find-out-more__icon">
-							<span class="fa fa-solid fa-volume-up"></span>
+							<span class="fa fa-solid fa-volume-up" />
 						</li>
 						<li class="find-out-more__icon">
-							<span class="fa fa-solid fa-laptop"></span>
+							<span class="fa fa-solid fa-laptop" />
 						</li>
 						<li class="find-out-more__icon">
-							<span class="fa fa-solid fa-inbox"></span>
+							<span class="fa fa-solid fa-inbox" />
 						</li>
 						<li class="find-out-more__icon">
-							<span class="fa fa-solid fa-lock"></span>
+							<span class="fa fa-solid fa-lock" />
 						</li>
 						<li class="find-out-more__icon">
-							<span class="fa fa-solid fa-cog"></span>
+							<span class="fa fa-solid fa-cog" />
 						</li>
 					</ul>
 				</div>
