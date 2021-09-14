@@ -1,14 +1,6 @@
 <template>
-	<base-layout>
-		<router-view />
-	</base-layout>
+	<router-view />
 </template>
 <script>
-import BaseLayout from './layout/BaseLayout.vue'
-
-export default {
-	components: {
-		BaseLayout,
-	},
-}
+export default {}
 </script>

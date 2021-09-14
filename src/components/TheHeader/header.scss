@@ -14,5 +14,9 @@
 
 	&__nav {
 		display: flex;
+		li {
+			text-transform: uppercase;
+			padding-right: 10px;
+		}
 	}
 }

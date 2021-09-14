@@ -1,22 +1,26 @@
 <template>
-	<div class="home-page">
-		<div class="container">
-			<div class="row">
-				<div class="col">
-					<find-out-more></find-out-more>
+	<base-layout>
+		<div class="home-page">
+			<div class="container">
+				<div class="row">
+					<div class="col">
+						<find-out-more></find-out-more>
+					</div>
 				</div>
 			</div>
 		</div>
-	</div>
+	</base-layout>
 </template>
 
 <script>
 import { computed } from 'vue'
 import { useStore } from 'vuex'
 import FindOutMore from '../components/FindOutMore/index.vue'
+import BaseLayout from '../layout/BaseLayout.vue'
 
 export default {
 	components: {
+		BaseLayout,
 		FindOutMore,
 	},
 	data() {
