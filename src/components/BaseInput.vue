@@ -18,7 +18,6 @@ export default {
 			default: '',
 		},
 	},
-	emits: ['update:searchText'],
 	methods: {
 		handleInput(evt) {
 			this.$emit('update:searchText', evt.target.value)
